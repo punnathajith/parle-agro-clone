@@ -1,0 +1,131 @@
+@font-face{
+    font-family: myFont;
+    src:url(ekselldisplay.otf.otf)
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#0a0b28;
+    padding-left: 40px;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+}
+.logo{
+    padding: 25px 10px;
+    width: 119px;
+    height: 26.44px;
+}
+li,.header-nav{
+    padding: 10px 12px;
+    display:inline-block;
+    color: #fff;
+    align-items: center;
+    font-size: 18px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+body{
+    margin: 0;
+}
+ul{
+    margin:0;
+    padding-right: 50px;
+}
+.body-container,.body-container-img{
+    width:1519.2px;
+    height: 898.23px;
+}
+.main-two-coloum{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#container{
+    width: 759.6px;
+    height: 948px;
+    background-color:#faa74a;
+    display: flex;
+    position: relative;
+}
+#box1{
+    width: 530.2px;
+    height:192.34px;
+    position:absolute;
+    top: 430px;
+    left: 115px;
+}
+#box2{
+    width: 455.75px;
+    height:228.3px;
+    position: absolute;
+    top: 410px;
+    left: 150px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 25px;
+    font-family:myFont;
+}
+.box1_img{
+    overflow-clip-margin: center;
+    overflow: clip;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+
+}
+.content{
+    width: 759.6px;
+    height:948px;
+    background-color: #fff;
+    
+}
+.releted-text{
+    width: 519.600px;
+    height: 602.175px;
+    align-items: center;
+    justify-content: center;
+    padding: 120px;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+}
+p{
+    padding-bottom: 15px;
+    margin: 0;
+}
+.second_img_body{
+    width:1519.2px;
+    height: 898.23px;
+}
+footer{
+    width: 1519px;
+}
+.footer_container{
+    width: 1428px;
+    height: 266.8px;
+    padding: 50px;
+    background-color:white;
+    display: grid;
+    grid-template-columns:443px 443px 443px;
+    justify-content: center;
+    gap: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+display: block;
+line-height: 25px;
+color: black;
+text-decoration: none;
+font-weight: 600;
+}
+.fa-brands.fa-linkedin,.fa-brands.fa-twitter,.fa-brands.fa-square-instagram,.fa-brands.fa-facebook{
+margin-right: 20px;
+font-size: 25px;
+}
